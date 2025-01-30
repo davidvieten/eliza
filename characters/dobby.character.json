@@ -1,7 +1,9 @@
 {
     "name": "Dobby",
-    "clients": [],
-    "modelProvider": "anthropic",
+    "clients": [
+        "twitter"
+    ],
+    "modelProvider": "openrouter",
     "settings": {
         "voice": {
             "model": "en_GB-danny-low"
